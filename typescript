@@ -1,0 +1,1803 @@
+Script started on Wed Apr  3 19:11:00 2013
+[Oh My Zsh] Would you like to check for updates?
+Type Y to update oh-my-zsh: y
+[0;34mUpgrading Oh My Zsh[0m
+remote: Counting objects: 277, done.[K
+remote: Compressing objects:   1% (1/95)   [Kremote: Compressing objects:   2% (2/95)   [Kremote: Compressing objects:   3% (3/95)   [Kremote: Compressing objects:   4% (4/95)   [Kremote: Compressing objects:   5% (5/95)   [Kremote: Compressing objects:   6% (6/95)   [Kremote: Compressing objects:   7% (7/95)   [Kremote: Compressing objects:   8% (8/95)   [Kremote: Compressing objects:   9% (9/95)   [Kremote: Compressing objects:  10% (10/95)   [Kremote: Compressing objects:  11% (11/95)   [Kremote: Compressing objects:  12% (12/95)   [Kremote: Compressing objects:  13% (13/95)   [Kremote: Compressing objects:  14% (14/95)   [Kremote: Compressing objects:  15% (15/95)   [Kremote: Compressing objects:  16% (16/95)   [Kremote: Compressing objects:  17% (17/95)   [Kremote: Compressing objects:  18% (18/95)   [Kremote: Compressing objects:  20% (19/95)   [Kremote: Compressing objects:  21% (20/95)   [Kremote: Compressing objects:  22% (21/95)   [Kremote: Compressing objects:  23% (22/95)   [Kremote: Compressing objects:  24% (23/95)   [Kremote: Compressing objects:  25% (24/95)   [Kremote: Compressing objects:  26% (25/95)   [Kremote: Compressing objects:  27% (26/95)   [Kremote: Compressing objects:  28% (27/95)   [Kremote: Compressing objects:  29% (28/95)   [Kremote: Compressing objects:  30% (29/95)   [Kremote: Compressing objects:  31% (30/95)   [Kremote: Compressing objects:  32% (31/95)   [Kremote: Compressing objects:  33% (32/95)   [Kremote: Compressing objects:  34% (33/95)   [Kremote: Compressing objects:  35% (34/95)   [Kremote: Compressing objects:  36% (35/95)   [Kremote: Compressing objects:  37% (36/95)   [Kremote: Compressing objects:  38% (37/95)   [Kremote: Compressing objects:  40% (38/95)   [Kremote: Compressing objects:  41% (39/95)   [Kremote: Compressing objects:  42% (40/95)   [Kremote: Compressing objects:  43% (41/95)   [Kremote: Compressing objects:  44% (42/95)   [Kremote: Compressing objects:  45% (43/95)   [Kremote: Compressing objects:  46% (44/95)   [Kremote: Compressing objects:  47% (45/95)   [Kremote: Compressing objects:  48% (46/95)   [Kremote: Compressing objects:  49% (47/95)   [Kremote: Compressing objects:  50% (48/95)   [Kremote: Compressing objects:  51% (49/95)   [Kremote: Compressing objects:  52% (50/95)   [Kremote: Compressing objects:  53% (51/95)   [Kremote: Compressing objects:  54% (52/95)   [Kremote: Compressing objects:  55% (53/95)   [Kremote: Compressing objects:  56% (54/95)   [Kremote: Compressing objects:  57% (55/95)   [Kremote: Compressing objects:  58% (56/95)   [Kremote: Compressing objects:  60% (57/95)   [Kremote: Compressing objects:  61% (58/95)   [Kremote: Compressing objects:  62% (59/95)   [Kremote: Compressing objects:  63% (60/95)   [Kremote: Compressing objects:  64% (61/95)   [Kremote: Compressing objects:  65% (62/95)   [Kremote: Compressing objects:  66% (63/95)   [Kremote: Compressing objects:  67% (64/95)   [Kremote: Compressing objects:  68% (65/95)   [Kremote: Compressing objects:  69% (66/95)   [Kremote: Compressing objects:  70% (67/95)   [Kremote: Compressing objects:  71% (68/95)   [Kremote: Compressing objects:  72% (69/95)   [Kremote: Compressing objects:  73% (70/95)   [Kremote: Compressing objects:  74% (71/95)   [Kremote: Compressing objects:  75% (72/95)   [Kremote: Compressing objects:  76% (73/95)   [Kremote: Compressing objects:  77% (74/95)   [Kremote: Compressing objects:  78% (75/95)   [Kremote: Compressing objects:  80% (76/95)   [Kremote: Compressing objects:  81% (77/95)   [Kremote: Compressing objects:  82% (78/95)   [Kremote: Compressing objects:  83% (79/95)   [Kremote: Compressing objects:  84% (80/95)   [Kremote: Compressing objects:  85% (81/95)   [Kremote: Compressing objects:  86% (82/95)   [Kremote: Compressing objects:  87% (83/95)   [Kremote: Compressing objects:  88% (84/95)   [Kremote: Compressing objects:  89% (85/95)   [Kremote: Compressing objects:  90% (86/95)   [Kremote: Compressing objects:  91% (87/95)   [Kremote: Compressing objects:  92% (88/95)   [Kremote: Compressing objects:  93% (89/95)   [Kremote: Compressing objects:  94% (90/95)   [Kremote: Compressing objects:  95% (91/95)   [Kremote: Compressing objects:  96% (92/95)   [Kremote: Compressing objects:  97% (93/95)   [Kremote: Compressing objects:  98% (94/95)   [Kremote: Compressing objects: 100% (95/95)   [Kremote: Compressing objects: 100% (95/95), done.[K
+Receiving objects:   0% (1/209)   Receiving objects:   1% (3/209)   Receiving objects:   2% (5/209)   Receiving objects:   3% (7/209)   Receiving objects:   4% (9/209)   Receiving objects:   5% (11/209)   Receiving objects:   6% (13/209)   Receiving objects:   7% (15/209)   Receiving objects:   8% (17/209)   Receiving objects:   9% (19/209)   Receiving objects:  10% (21/209)   Receiving objects:  11% (23/209)   Receiving objects:  12% (26/209)   Receiving objects:  13% (28/209)   Receiving objects:  14% (30/209)   Receiving objects:  15% (32/209)   Receiving objects:  16% (34/209)   Receiving objects:  17% (36/209)   Receiving objects:  18% (38/209)   Receiving objects:  19% (40/209)   Receiving objects:  20% (42/209)   Receiving objects:  21% (44/209)   Receiving objects:  22% (46/209)   Receiving objects:  23% (49/209)   Receiving objects:  24% (51/209)   Receiving objects:  25% (53/209)   Receiving objects:  26% (55/209)   Receiving objects:  27% (57/209)   Receiving objects:  28% (59/209)   Receiving objects:  29% (61/209)   Receiving objects:  30% (63/209)   Receiving objects:  31% (65/209)   Receiving objects:  32% (67/209)   Receiving objects:  33% (69/209)   Receiving objects:  34% (72/209)   Receiving objects:  35% (74/209)   Receiving objects:  36% (76/209)   Receiving objects:  37% (78/209)   Receiving objects:  38% (80/209)   Receiving objects:  39% (82/209)   Receiving objects:  40% (84/209)   Receiving objects:  41% (86/209)   Receiving objects:  42% (88/209)   Receiving objects:  43% (90/209)   Receiving objects:  44% (92/209)   Receiving objects:  45% (95/209)   Receiving objects:  46% (97/209)   Receiving objects:  47% (99/209)   Receiving objects:  48% (101/209)   Receiving objects:  49% (103/209)   Receiving objects:  50% (105/209)   Receiving objects:  51% (107/209)   Receiving objects:  52% (109/209)   Receiving objects:  53% (111/209)   Receiving objects:  54% (113/209)   Receiving objects:  55% (115/209)   Receiving objects:  56% (118/209)   Receiving objects:  57% (120/209)   Receiving objects:  58% (122/209)   Receiving objects:  59% (124/209)   Receiving objects:  60% (126/209)   Receiving objects:  61% (128/209)   Receiving objects:  62% (130/209)   Receiving objects:  63% (132/209)   Receiving objects:  64% (134/209)   Receiving objects:  65% (136/209)   Receiving objects:  66% (138/209)   Receiving objects:  67% (141/209)   Receiving objects:  68% (143/209)   Receiving objects:  69% (145/209)   Receiving objects:  70% (147/209)   Receiving objects:  71% (149/209)   Receiving objects:  72% (151/209)   Receiving objects:  73% (153/209)   Receiving objects:  74% (155/209)   Receiving objects:  75% (157/209)   Receiving objects:  76% (159/209)   Receiving objects:  77% (161/209)   Receiving objects:  78% (164/209)   Receiving objects:  79% (166/209)   Receiving objects:  80% (168/209)   Receiving objects:  81% (170/209)   Receiving objects:  82% (172/209)   Receiving objects:  83% (174/209)   Receiving objects:  84% (176/209)   Receiving objects:  85% (178/209)   Receiving objects:  86% (180/209)   Receiving objects:  87% (182/209)   Receiving objects:  88% (184/209)   Receiving objects:  89% (187/209)   Receiving objects:  90% (189/209)   Receiving objects:  91% (191/209)   Receiving objects:  92% (193/209)   Receiving objects:  93% (195/209)   Receiving objects:  94% (197/209)   Receiving objects:  95% (199/209)   Receiving objects:  96% (201/209)   Receiving objects:  97% (203/209)   Receiving objects:  98% (205/209)   Receiving objects:  99% (207/209)   Receiving objects: 100% (209/209)   Receiving objects: 100% (209/209), 35.65 KiB, done.
+Resolving deltas:   0% (0/118)   Resolving deltas:   1% (2/118)   Resolving deltas:   2% (3/118)   remote: Total 209 (delta 118), reused 185 (delta 99)[K
+Resolving deltas:  29% (35/118)   Resolving deltas:  34% (41/118)   Resolving deltas:  37% (44/118)   Resolving deltas:  38% (45/118)   Resolving deltas:  58% (69/118)   Resolving deltas:  59% (70/118)   Resolving deltas:  60% (71/118)   Resolving deltas:  61% (72/118)   Resolving deltas:  62% (74/118)   Resolving deltas:  63% (75/118)   Resolving deltas:  64% (76/118)   Resolving deltas:  65% (77/118)   Resolving deltas:  66% (78/118)   Resolving deltas:  72% (86/118)   Resolving deltas:  75% (89/118)   Resolving deltas:  76% (90/118)   Resolving deltas:  82% (97/118)   Resolving deltas:  85% (101/118)   Resolving deltas:  87% (103/118)   Resolving deltas:  88% (104/118)   Resolving deltas:  89% (106/118)   Resolving deltas:  93% (110/118)   Resolving deltas:  96% (114/118)   Resolving deltas:  97% (115/118)   Resolving deltas:  98% (116/118)   Resolving deltas:  99% (117/118)   Resolving deltas: 100% (118/118)   Resolving deltas: 100% (118/118), completed with 29 local objects.
+From https://github.com/robbyrussell/oh-my-zsh
+ * branch            master     -> FETCH_HEAD
+Updating 0ab0e67..b8b241f
+Fast-forward
+ lib/correction.zsh                     |   12 +----
+ lib/git.zsh                            |    4 +-
+ lib/history.zsh                        |    4 +-
+ plugins/bower/bower.plugin.zsh         |   38 +++++++++++++++
+ plugins/capistrano/_capistrano         |    2 +-
+ plugins/encode64/encode64.plugin.zsh   |    2 +-
+ plugins/extract/extract.plugin.zsh     |    2 +-
+ plugins/fbterm/fbterm.plugin.zsh       |    6 +++
+ plugins/golang/golang.plugin.zsh       |  150 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ plugins/grails/grails.plugin.zsh       |   28 ++++++-----
+ plugins/mvn/mvn.plugin.zsh             |    2 +-
+ plugins/osx/osx.plugin.zsh             |    3 ++
+ plugins/profiles/profiles.plugin.zsh   |   12 +++++
+ plugins/rbenv/rbenv.plugin.zsh         |    2 +-
+ plugins/rvm/rvm.plugin.zsh             |   14 +++++-
+ plugins/sbt/_sbt                       |   55 +++++++++++++++++++++
+ plugins/sbt/sbt.plugin.zsh             |   23 +++++++++
+ plugins/scala/_scala                   |  249 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ plugins/ssh-agent/ssh-agent.plugin.zsh |   15 ++++--
+ plugins/sublime/sublime.plugin.zsh     |   25 ++++++----
+ themes/agnoster.zsh-theme              |   36 ++++++++++++++
+ themes/dallas.zsh-theme                |    2 +-
+ themes/ys.zsh-theme                    |   34 +++++++++++++
+ 23 files changed, 677 insertions(+), 43 deletions(-)
+ create mode 100644 plugins/bower/bower.plugin.zsh
+ create mode 100644 plugins/fbterm/fbterm.plugin.zsh
+ create mode 100644 plugins/golang/golang.plugin.zsh
+ create mode 100644 plugins/profiles/profiles.plugin.zsh
+ create mode 100644 plugins/sbt/_sbt
+ create mode 100644 plugins/sbt/sbt.plugin.zsh
+ create mode 100644 plugins/scala/_scala
+ create mode 100644 themes/ys.zsh-theme
+[0;32m         __                                     __   [0m
+[0;32m  ____  / /_     ____ ___  __  __   ____  _____/ /_  [0m
+[0;32m / __ \/ __ \   / __ `__ \/ / / /  /_  / / ___/ __ \ [0m
+[0;32m/ /_/ / / / /  / / / / / / /_/ /    / /_(__  ) / / / [0m
+[0;32m\____/_/ /_/  /_/ /_/ /_/\__, /    /___/____/_/ /_/  [0m
+[0;32m                        /____/                       [0m
+[0;34mHooray! Oh My Zsh has been updated and/or is at the current version.[0m
+[0;34mTo keep up on the latest, be sure to follow Oh My Zsh on twitter: [1mhttp://twitter.com/ohmyzsh[0m
+[1m[7m%[27m[1m[0m                                                                                                                                              ]2;sdettling@Stephens-MacBook-Air: ~/Documents/src/jon]1;..ments/src/jon[0m[27m[24m[J[01;31m➜ [01;32m [36mjon [01;34m[01;34m [00m[K. bbrew install imagemagick
+]2;brew install imagemagick]1;brew[4;31mError[0m: imagemagick-6.7.1-1 already installed
+To install this version, first `brew unlink imagemagick'
+[1m[7m%[27m[1m[0m                                                                                                                                              ]2;sdettling@Stephens-MacBook-Air: ~/Documents/src/jon]1;..ments/src/jon[0m[27m[24m[J[01;31m➜ [01;32m [36mjon [01;34m[01;34m [00m[Kbbundle
+]2;bundle]1;bundleFetching gem metadata from https://rubygems.org/..........
+Fetching gem metadata from https://rubygems.org/..
+Resolving dependencies...
+Using rake (10.0.4) 
+Using i18n (0.6.4) 
+Using multi_json (1.7.2) 
+Using activesupport (3.2.12) 
+Using builder (3.0.4) 
+Using activemodel (3.2.12) 
+Using erubis (2.7.0) 
+Using journey (1.0.4) 
+Using rack (1.4.5) 
+Using rack-cache (1.2) 
+Using rack-test (0.6.2) 
+Using hike (1.2.1) 
+Using tilt (1.3.6) 
+Using sprockets (2.2.2) 
+Using actionpack (3.2.12) 
+Using mime-types (1.22) 
+Using polyglot (0.3.3) 
+Using treetop (1.4.12) 
+Using mail (2.4.4) 
+Using actionmailer (3.2.12) 
+Using arel (3.0.2) 
+Using tzinfo (0.3.37) 
+Using activerecord (3.2.12) 
+Using activeresource (3.2.12) 
+Using bundler (1.3.0.pre.8) 
+Installing climate_control (0.0.3) 
+Installing cocaine (0.5.1) 
+Using coffee-script-source (1.6.2) 
+Using execjs (1.4.0) 
+Using coffee-script (2.2.0) 
+Using rack-ssl (1.3.3) 
+Using json (1.7.7) 
+Using rdoc (3.12.2) 
+Using thor (0.18.1) 
+Using railties (3.2.12) 
+Using coffee-rails (3.2.2) 
+Using commonjs (0.2.6) 
+Using jquery-rails (2.2.1) 
+Using less (2.3.1) 
+Using less-rails (2.3.2) 
+Using libv8 (3.11.8.13) 
+Installing paperclip (3.4.1) 
+Using rails (3.2.12) 
+Using ref (1.0.2) 
+Using sass (3.2.7) 
+Using sass-rails (3.2.6) 
+Using sqlite3 (1.3.7) 
+Using therubyracer (0.11.4) 
+Using twitter-bootstrap-rails (2.2.6) 
+Using uglifier (1.3.0) 
+[32mYour bundle is complete! Use `bundle show [gemname]` to see where a bundled gem is installed.[0m
+[32mPost-install message from paperclip:
+##################################################
+#  NOTE FOR UPGRADING FROM PRE-3.0 VERSION       #
+##################################################
+
+Paperclip 3.0 introduces a non-backward compatible change in your attachment
+path. This will help to prevent attachment name clashes when you have
+multiple attachments with the same name. If you didn't alter your
+attachment's path and are using Paperclip's default, you'll have to add
+`:path` and `:url` to your `has_attached_file` definition. For example:
+
+    has_attached_file :avatar,
+      :path => ":rails_root/public/system/:attachment/:id/:style/:filename",
+      :url => "/system/:attachment/:id/:style/:filename"
+
+[0m
+[1m[7m%[27m[1m[0m                                                                                                                                              ]2;sdettling@Stephens-MacBook-Air: ~/Documents/src/jon]1;..ments/src/jon[0m[27m[24m[J[01;31m➜ [01;32m [36mjon [01;34m[01;34m [00m[Krrails gen   paperclip project thumb
+]2;rails g paperclip project thumb]1;rails[1m[32m      create[0m  db/migrate/20130403231859_add_attachment_thumb_to_projects.rb
+[1m[7m%[27m[1m[0m                                                                                                                                              ]2;sdettling@Stephens-MacBook-Air: ~/Documents/src/jon]1;..ments/src/jon[0m[27m[24m[J[01;31m➜ [01;32m [36mjon [01;34m[01;34m [00m[Kr r rrails s
+]2;rails s]1;rails=> Booting WEBrick
+=> Rails 3.2.12 application starting in development on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+[2013-04-03 19:22:06] INFO  WEBrick 1.3.1
+[2013-04-03 19:22:06] INFO  ruby 2.0.0 (2013-02-24) [x86_64-darwin12.2.0]
+[2013-04-03 19:22:06] INFO  WEBrick::HTTPServer#start: pid=69436 port=3000
+^C[2013-04-03 19:22:09] INFO  going to shutdown ...
+[2013-04-03 19:22:09] INFO  WEBrick::HTTPServer#start done.
+Exiting
+[1m[7m%[27m[1m[0m                                                                                                                                              ]2;sdettling@Stephens-MacBook-Air: ~/Documents/src/jon]1;..ments/src/jon[0m[27m[24m[J[01;31m➜ [01;32m [36mjon [01;34m[01;34m [00m[Km rrails   ke db: migrate
+]2;rake db:migrate]1;db:migrate==  AddAttachmentThumbToProjects: migrating ===================================
+-- change_table(:projects)
+   -> 0.0018s
+==  AddAttachmentThumbToProjects: migrated (0.0019s) ==========================
+
+[1m[7m%[27m[1m[0m                                                                                                                                              ]2;sdettling@Stephens-MacBook-Air: ~/Documents/src/jon]1;..ments/src/jon[0m[27m[24m[J[01;31m➜ [01;32m [36mjon [01;34m[01;34m [00m[Krake db:migrate[13Dils s        [8D
+]2;rails s]1;rails=> Booting WEBrick
+=> Rails 3.2.12 application starting in development on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+[2013-04-03 19:22:27] INFO  WEBrick 1.3.1
+[2013-04-03 19:22:27] INFO  ruby 2.0.0 (2013-02-24) [x86_64-darwin12.2.0]
+[2013-04-03 19:22:27] INFO  WEBrick::HTTPServer#start: pid=69448 port=3000
+
+
+Started GET "/categories" for 127.0.0.1 at 2013-04-03 19:22:33 -0400
+Connecting to database specified by database.yml
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  Rendered categories/index.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 155ms (Views: 135.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-03 19:22:34 -0400
+Served asset /application.css - 304 Not Modified (21ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-04-03 19:22:34 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2013-04-03 19:22:34 -0400
+Served asset /projects.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-03 19:22:34 -0400
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-03 19:22:34 -0400
+Served asset /scaffolds.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2013-04-03 19:22:34 -0400
+Served asset /categories.css - 304 Not Modified (38ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-03 19:22:34 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-04-03 19:22:34 -0400
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-04-03 19:22:34 -0400
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-04-03 19:22:34 -0400
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-04-03 19:22:34 -0400
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-04-03 19:22:34 -0400
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-04-03 19:22:34 -0400
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-04-03 19:22:34 -0400
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-04-03 19:22:34 -0400
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-04-03 19:22:34 -0400
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-04-03 19:22:34 -0400
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-04-03 19:22:34 -0400
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-04-03 19:22:34 -0400
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-04-03 19:22:34 -0400
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-03 19:22:34 -0400
+Served asset /twitter/bootstrap.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-03 19:22:34 -0400
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-04-03 19:22:34 -0400
+Served asset /categories.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2013-04-03 19:22:34 -0400
+Served asset /projects.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-03 19:22:34 -0400
+Served asset /application.js - 304 Not Modified (16ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2013-04-03 19:22:40 -0400
+Processing by ProjectsController#new as HTML
+  Rendered projects/_form.html.erb (6.4ms)
+  Rendered projects/new.html.erb within layouts/application (48.1ms)
+Completed 500 Internal Server Error in 63ms
+
+ActionView::Template::Error (undefined method `file_field' for nil:NilClass):
+    32:   <div class="control-group">
+    33:     <%= f.label :thumb, :class => 'control-label' %>
+    34:     <div class="controls">
+    35:       <%= form.file_field :thumb %>
+    36:     </div>
+    37:   </div>
+    38: 
+  app/views/projects/_form.html.erb:35:in `block in _app_views_projects__form_html_erb__2441679371953527728_70259597102120'
+  app/views/projects/_form.html.erb:1:in `_app_views_projects__form_html_erb__2441679371953527728_70259597102120'
+  app/views/projects/new.html.erb:5:in `_app_views_projects_new_html_erb___1184618808362622278_70259612105900'
+  app/controllers/projects_controller.rb:29:in `new'
+
+
+  Rendered /Users/sdettling/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/sdettling/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/sdettling/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.0ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2013-04-03 19:25:10 -0400
+Processing by ProjectsController#new as HTML
+  Rendered projects/_form.html.erb (4.7ms)
+  Rendered projects/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-03 19:25:10 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-03 19:25:10 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-04-03 19:25:10 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2013-04-03 19:25:10 -0400
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-03 19:25:10 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2013-04-03 19:25:10 -0400
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-03 19:25:10 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-04-03 19:25:10 -0400
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-04-03 19:25:10 -0400
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-04-03 19:25:10 -0400
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-04-03 19:25:10 -0400
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-04-03 19:25:10 -0400
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-04-03 19:25:10 -0400
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-04-03 19:25:10 -0400
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-04-03 19:25:10 -0400
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-04-03 19:25:10 -0400
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-04-03 19:25:10 -0400
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-04-03 19:25:10 -0400
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-04-03 19:25:10 -0400
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-04-03 19:25:10 -0400
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-03 19:25:10 -0400
+Served asset /twitter/bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-03 19:25:10 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-04-03 19:25:10 -0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2013-04-03 19:25:10 -0400
+Served asset /projects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-03 19:25:10 -0400
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/projects" for 127.0.0.1 at 2013-04-03 19:25:33 -0400
+Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yyUvv3NMz8Uv/TV4za4WJr6DKFnY98/4VTjQ5g9aoHo=", "project"=>{"title"=>"test", "slug"=>"", "type"=>"", "description"=>"", "category_id"=>"1", "thumb"=>#<ActionDispatch::Http::UploadedFile:0x007fcd2cf240a8 @original_filename="GoateeAd.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"project[thumb]\"; filename=\"GoateeAd.jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<Tempfile:/var/folders/6c/8f1p29js5fx714kz27_ytwlh0000gn/T/RackMultipart20130403-69448-1r46xbv>>}, "commit"=>"Create Project"}
+Completed 500 Internal Server Error in 1ms
+
+ActiveModel::MassAssignmentSecurity::Error (Can't mass-assign protected attributes: thumb):
+  app/controllers/projects_controller.rb:43:in `new'
+  app/controllers/projects_controller.rb:43:in `create'
+
+
+  Rendered /Users/sdettling/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /Users/sdettling/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /Users/sdettling/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.6ms)
+
+
+Started POST "/projects" for 127.0.0.1 at 2013-04-03 19:27:06 -0400
+
+SyntaxError (/Users/sdettling/Documents/src/jon/app/models/project.rb:6: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/controllers/projects_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/sdettling/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/sdettling/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/sdettling/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.0ms)
+
+
+Started POST "/projects" for 127.0.0.1 at 2013-04-03 19:27:42 -0400
+Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yyUvv3NMz8Uv/TV4za4WJr6DKFnY98/4VTjQ5g9aoHo=", "project"=>{"title"=>"test", "slug"=>"", "type"=>"", "description"=>"", "category_id"=>"1", "thumb"=>#<ActionDispatch::Http::UploadedFile:0x007fcd2e4c9340 @original_filename="GoateeAd.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"project[thumb]\"; filename=\"GoateeAd.jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<Tempfile:/var/folders/6c/8f1p29js5fx714kz27_ytwlh0000gn/T/RackMultipart20130403-69448-1tzldlb>>}, "commit"=>"Create Project"}
+  [1m[35m (0.1ms)[0m  begin transaction
+Binary data inserted for `string` type on column `thumb_content_type`
+  [1m[36mSQL (5.6ms)[0m  [1mINSERT INTO "projects" ("category_id", "created_at", "description", "slug", "thumb_content_type", "thumb_file_name", "thumb_file_size", "thumb_updated_at", "title", "type", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["category_id", 1], ["created_at", Wed, 03 Apr 2013 23:27:42 UTC +00:00], ["description", ""], ["slug", ""], ["thumb_content_type", "image/jpeg"], ["thumb_file_name", "GoateeAd.jpg"], ["thumb_file_size", 811024], ["thumb_updated_at", Wed, 03 Apr 2013 23:27:42 UTC +00:00], ["title", "test"], ["type", ""], ["updated_at", Wed, 03 Apr 2013 23:27:42 UTC +00:00]]
+[paperclip] Saving attachments.
+  [1m[35m (1.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/projects/1
+Completed 302 Found in 65ms (ActiveRecord: 7.9ms)
+
+
+Started GET "/projects/1" for 127.0.0.1 at 2013-04-03 19:27:42 -0400
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered projects/show.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 19ms (Views: 16.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-04-03 19:27:42 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-03 19:27:42 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-03 19:27:42 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2013-04-03 19:27:42 -0400
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-03 19:27:42 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2013-04-03 19:27:42 -0400
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-03 19:27:42 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-04-03 19:27:42 -0400
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-04-03 19:27:42 -0400
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-04-03 19:27:42 -0400
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-04-03 19:27:42 -0400
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-04-03 19:27:42 -0400
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-04-03 19:27:42 -0400
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-04-03 19:27:42 -0400
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-04-03 19:27:42 -0400
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-04-03 19:27:42 -0400
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-04-03 19:27:42 -0400
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-04-03 19:27:42 -0400
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-04-03 19:27:42 -0400
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-04-03 19:27:42 -0400
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-03 19:27:42 -0400
+Served asset /twitter/bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-03 19:27:42 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-04-03 19:27:42 -0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2013-04-03 19:27:42 -0400
+Served asset /projects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-03 19:27:42 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/projects/1/edit" for 127.0.0.1 at 2013-04-03 19:27:44 -0400
+Processing by ProjectsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProject Load (0.1ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered projects/_form.html.erb (3.9ms)
+  Rendered projects/edit.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-04-03 19:27:44 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2013-04-03 19:27:44 -0400
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-03 19:27:44 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2013-04-03 19:27:44 -0400
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-03 19:27:44 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-04-03 19:27:44 -0400
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-03 19:27:44 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-03 19:27:44 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-04-03 19:27:44 -0400
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-04-03 19:27:44 -0400
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-04-03 19:27:44 -0400
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-04-03 19:27:44 -0400
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-04-03 19:27:44 -0400
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-04-03 19:27:44 -0400
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-04-03 19:27:44 -0400
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-04-03 19:27:44 -0400
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-04-03 19:27:44 -0400
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-04-03 19:27:44 -0400
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-04-03 19:27:44 -0400
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-03 19:27:44 -0400
+Served asset /twitter/bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-04-03 19:27:44 -0400
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-03 19:27:44 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-03 19:27:44 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2013-04-03 19:27:44 -0400
+Served asset /projects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-04-03 19:27:44 -0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/projects/" for 127.0.0.1 at 2013-04-03 19:29:10 -0400
+Processing by ProjectsController#index as HTML
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" [0m
+  Rendered projects/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 57ms (Views: 55.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-03 19:29:10 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-04-03 19:29:10 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2013-04-03 19:29:10 -0400
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-03 19:29:10 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2013-04-03 19:29:10 -0400
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-03 19:29:10 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-03 19:29:10 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-04-03 19:29:10 -0400
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-04-03 19:29:10 -0400
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-04-03 19:29:10 -0400
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-04-03 19:29:10 -0400
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-04-03 19:29:10 -0400
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-04-03 19:29:10 -0400
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-04-03 19:29:10 -0400
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-04-03 19:29:10 -0400
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-04-03 19:29:11 -0400
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-04-03 19:29:11 -0400
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-04-03 19:29:11 -0400
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-04-03 19:29:11 -0400
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-04-03 19:29:11 -0400
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-03 19:29:11 -0400
+Served asset /twitter/bootstrap.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-03 19:29:11 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-04-03 19:29:11 -0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2013-04-03 19:29:11 -0400
+Served asset /projects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-03 19:29:11 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/projects/1/edit" for 127.0.0.1 at 2013-04-03 20:09:50 -0400
+Processing by ProjectsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProject Load (0.1ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered projects/_form.html.erb (4.0ms)
+  Rendered projects/edit.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-03 20:09:50 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2013-04-03 20:09:50 -0400
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-03 20:09:50 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-03 20:09:50 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-03 20:09:50 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-04-03 20:09:50 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2013-04-03 20:09:50 -0400
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-04-03 20:09:50 -0400
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-04-03 20:09:50 -0400
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-04-03 20:09:50 -0400
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-04-03 20:09:50 -0400
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-04-03 20:09:50 -0400
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-04-03 20:09:50 -0400
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-04-03 20:09:50 -0400
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-04-03 20:09:50 -0400
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-04-03 20:09:50 -0400
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-04-03 20:09:50 -0400
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-04-03 20:09:50 -0400
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-04-03 20:09:50 -0400
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-03 20:09:50 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-04-03 20:09:50 -0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-04-03 20:09:50 -0400
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-03 20:09:50 -0400
+Served asset /twitter/bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-03 20:09:50 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2013-04-03 20:09:50 -0400
+Served asset /projects.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateProjects (20130403224818)
+Migrating to CreateCategories (20130403224856)
+Migrating to AddAttachmentThumbToProjects (20130403231859)
+Migrating to CreateImages (20130404004637)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  CREATE TABLE "images" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130404004637')[0m
+  [1m[35m (1.5ms)[0m  commit transaction
+Migrating to AddAttachmentFileToImages (20130404005008)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  ALTER TABLE "images" ADD "file_file_name" varchar(255)
+  [1m[36m (0.1ms)[0m  [1mALTER TABLE "images" ADD "file_content_type" varchar(255)[0m
+  [1m[35m (0.1ms)[0m  ALTER TABLE "images" ADD "file_file_size" integer
+  [1m[36m (0.1ms)[0m  [1mALTER TABLE "images" ADD "file_updated_at" datetime[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130404005008')
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateProjects (20130403224818)
+Migrating to CreateCategories (20130403224856)
+Migrating to AddAttachmentThumbToProjects (20130403231859)
+Migrating to CreateImages (20130404004637)
+Migrating to AddAttachmentFileToImages (20130404005008)
+Migrating to AddProjectIdToImages (20130404011253)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  ALTER TABLE "images" ADD "project_id" integer
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130404011253')[0m
+  [1m[35m (2.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+
+
+Started GET "/projects/" for 127.0.0.1 at 2013-04-03 21:20:44 -0400
+
+ActionController::RoutingError (undefined method `accepts_nested_attribues_for' for #<Class:0x007fcd2f891a08>):
+  app/models/project.rb:5:in `<class:Project>'
+  app/models/project.rb:1:in `<top (required)>'
+  app/controllers/projects_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/sdettling/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/projects/" for 127.0.0.1 at 2013-04-03 21:21:55 -0400
+Processing by ProjectsController#index as HTML
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT "projects".* FROM "projects" [0m
+  Rendered projects/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 28ms (Views: 16.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-04-03 21:21:55 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-03 21:21:55 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2013-04-03 21:21:55 -0400
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2013-04-03 21:21:55 -0400
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-03 21:21:55 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-04-03 21:21:55 -0400
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-03 21:21:55 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-03 21:21:55 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-04-03 21:21:55 -0400
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-04-03 21:21:55 -0400
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-04-03 21:21:55 -0400
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-04-03 21:21:55 -0400
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-04-03 21:21:55 -0400
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-04-03 21:21:55 -0400
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-04-03 21:21:55 -0400
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-04-03 21:21:55 -0400
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-04-03 21:21:55 -0400
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-04-03 21:21:55 -0400
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-04-03 21:21:55 -0400
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-04-03 21:21:55 -0400
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-03 21:21:56 -0400
+Served asset /twitter/bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-03 21:21:56 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2013-04-03 21:21:56 -0400
+Served asset /projects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-03 21:21:56 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-04-03 21:21:56 -0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2013-04-03 21:22:00 -0400
+Processing by ProjectsController#new as HTML
+  Rendered projects/_form.html.erb (41.6ms)
+  Rendered projects/new.html.erb within layouts/application (42.7ms)
+Completed 200 OK in 82ms (Views: 52.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2013-04-03 21:22:00 -0400
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2013-04-03 21:22:00 -0400
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-03 21:22:01 -0400
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-03 21:22:01 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-04-03 21:22:01 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-03 21:22:01 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-03 21:22:01 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-04-03 21:22:01 -0400
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-04-03 21:22:01 -0400
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-04-03 21:22:01 -0400
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-04-03 21:22:01 -0400
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-04-03 21:22:01 -0400
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-04-03 21:22:01 -0400
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-04-03 21:22:01 -0400
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-04-03 21:22:01 -0400
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-04-03 21:22:01 -0400
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-04-03 21:22:01 -0400
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-04-03 21:22:01 -0400
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-04-03 21:22:01 -0400
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-04-03 21:22:01 -0400
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-03 21:22:01 -0400
+Served asset /twitter/bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-04-03 21:22:01 -0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-03 21:22:01 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2013-04-03 21:22:01 -0400
+Served asset /projects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-03 21:22:01 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/projects" for 127.0.0.1 at 2013-04-03 21:22:54 -0400
+Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yyUvv3NMz8Uv/TV4za4WJr6DKFnY98/4VTjQ5g9aoHo=", "project"=>{"title"=>"test2", "slug"=>"", "type"=>"", "description"=>"", "category_id"=>"", "images_attributes"=>{"0"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007fcd2cf07278 @original_filename="queensofthenilead.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"project[images_attributes][0][image]\"; filename=\"queensofthenilead.jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<Tempfile:/var/folders/6c/8f1p29js5fx714kz27_ytwlh0000gn/T/RackMultipart20130403-69448-1m3k1ka>>}, "1"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007fcd2cf05978 @original_filename="GoateeAd.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"project[images_attributes][1][image]\"; filename=\"GoateeAd.jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<Tempfile:/var/folders/6c/8f1p29js5fx714kz27_ytwlh0000gn/T/RackMultipart20130403-69448-10caxua>>}, "2"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007fcd2cf048c0 @original_filename="Screen Shot 2013-04-03 at 8.30.13 PM.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"project[images_attributes][2][image]\"; filename=\"Screen Shot 2013-04-03 at 8.30.13 PM.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<Tempfile:/var/folders/6c/8f1p29js5fx714kz27_ytwlh0000gn/T/RackMultipart20130403-69448-om9gy6>>}}}, "commit"=>"Create Project"}
+Completed 500 Internal Server Error in 1ms
+
+ActiveModel::MassAssignmentSecurity::Error (Can't mass-assign protected attributes: images_attributes):
+  app/controllers/projects_controller.rb:44:in `new'
+  app/controllers/projects_controller.rb:44:in `create'
+
+
+  Rendered /Users/sdettling/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/sdettling/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/sdettling/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.3ms)
+
+
+Started POST "/projects" for 127.0.0.1 at 2013-04-03 21:24:42 -0400
+Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yyUvv3NMz8Uv/TV4za4WJr6DKFnY98/4VTjQ5g9aoHo=", "project"=>{"title"=>"test2", "slug"=>"", "type"=>"", "description"=>"", "category_id"=>"", "images_attributes"=>{"0"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007fcd2e57c918 @original_filename="queensofthenilead.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"project[images_attributes][0][image]\"; filename=\"queensofthenilead.jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<Tempfile:/var/folders/6c/8f1p29js5fx714kz27_ytwlh0000gn/T/RackMultipart20130403-69448-1u6ktu4>>}, "1"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007fcd2e57c508 @original_filename="GoateeAd.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"project[images_attributes][1][image]\"; filename=\"GoateeAd.jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<Tempfile:/var/folders/6c/8f1p29js5fx714kz27_ytwlh0000gn/T/RackMultipart20130403-69448-mva63>>}, "2"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007fcd2e57c350 @original_filename="Screen Shot 2013-04-03 at 8.30.13 PM.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"project[images_attributes][2][image]\"; filename=\"Screen Shot 2013-04-03 at 8.30.13 PM.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<Tempfile:/var/folders/6c/8f1p29js5fx714kz27_ytwlh0000gn/T/RackMultipart20130403-69448-veywhr>>}}}, "commit"=>"Create Project"}
+Completed 500 Internal Server Error in 44ms
+
+ActiveModel::MassAssignmentSecurity::Error (Can't mass-assign protected attributes: image):
+  app/controllers/projects_controller.rb:44:in `new'
+  app/controllers/projects_controller.rb:44:in `create'
+
+
+  Rendered /Users/sdettling/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/sdettling/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/sdettling/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.2ms)
+
+
+Started POST "/projects" for 127.0.0.1 at 2013-04-03 21:28:16 -0400
+Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yyUvv3NMz8Uv/TV4za4WJr6DKFnY98/4VTjQ5g9aoHo=", "project"=>{"title"=>"test2", "slug"=>"", "type"=>"", "description"=>"", "category_id"=>"", "images_attributes"=>{"0"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007fcd2cdcdcb8 @original_filename="queensofthenilead.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"project[images_attributes][0][image]\"; filename=\"queensofthenilead.jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<Tempfile:/var/folders/6c/8f1p29js5fx714kz27_ytwlh0000gn/T/RackMultipart20130403-69448-ux6ojy>>}, "1"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007fcd2cddb458 @original_filename="GoateeAd.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"project[images_attributes][1][image]\"; filename=\"GoateeAd.jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<Tempfile:/var/folders/6c/8f1p29js5fx714kz27_ytwlh0000gn/T/RackMultipart20130403-69448-178wfui>>}, "2"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007fcd2cdd8960 @original_filename="Screen Shot 2013-04-03 at 8.30.13 PM.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"project[images_attributes][2][image]\"; filename=\"Screen Shot 2013-04-03 at 8.30.13 PM.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<Tempfile:/var/folders/6c/8f1p29js5fx714kz27_ytwlh0000gn/T/RackMultipart20130403-69448-1cb4eb9>>}}}, "commit"=>"Create Project"}
+Completed 500 Internal Server Error in 1ms
+
+ActiveModel::MassAssignmentSecurity::Error (Can't mass-assign protected attributes: image):
+  app/controllers/projects_controller.rb:44:in `new'
+  app/controllers/projects_controller.rb:44:in `create'
+
+
+  Rendered /Users/sdettling/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/sdettling/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/sdettling/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.1ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2013-04-03 21:28:21 -0400
+Processing by ProjectsController#new as HTML
+  Rendered projects/_form.html.erb (5.8ms)
+  Rendered projects/new.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 25ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-03 21:28:21 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-04-03 21:28:21 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-03 21:28:21 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2013-04-03 21:28:21 -0400
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2013-04-03 21:28:21 -0400
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-03 21:28:21 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-03 21:28:21 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-04-03 21:28:21 -0400
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-04-03 21:28:21 -0400
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-04-03 21:28:21 -0400
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-04-03 21:28:21 -0400
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-04-03 21:28:21 -0400
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-04-03 21:28:21 -0400
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-04-03 21:28:21 -0400
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-04-03 21:28:21 -0400
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-04-03 21:28:21 -0400
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-04-03 21:28:21 -0400
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-04-03 21:28:21 -0400
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-04-03 21:28:21 -0400
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-04-03 21:28:21 -0400
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-03 21:28:21 -0400
+Served asset /twitter/bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-03 21:28:21 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-04-03 21:28:21 -0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2013-04-03 21:28:21 -0400
+Served asset /projects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-03 21:28:21 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/projects" for 127.0.0.1 at 2013-04-03 21:28:44 -0400
+Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yyUvv3NMz8Uv/TV4za4WJr6DKFnY98/4VTjQ5g9aoHo=", "project"=>{"title"=>"test2", "slug"=>"", "type"=>"", "description"=>"", "category_id"=>"", "images_attributes"=>{"0"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x007fcd2cdd8b40 @original_filename="2XL_klik.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"project[images_attributes][0][file]\"; filename=\"2XL_klik.jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<Tempfile:/var/folders/6c/8f1p29js5fx714kz27_ytwlh0000gn/T/RackMultipart20130403-69448-1txa3hg>>}, "1"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x007fcd2cdd80f0 @original_filename="contact_klik.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"project[images_attributes][1][file]\"; filename=\"contact_klik.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<Tempfile:/var/folders/6c/8f1p29js5fx714kz27_ytwlh0000gn/T/RackMultipart20130403-69448-1q9x4xv>>}, "2"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x007fcd2cde3630 @original_filename="contact_bevestigen.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"project[images_attributes][2][file]\"; filename=\"contact_bevestigen.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<Tempfile:/var/folders/6c/8f1p29js5fx714kz27_ytwlh0000gn/T/RackMultipart20130403-69448-2q7vxo>>}}}, "commit"=>"Create Project"}
+Completed 500 Internal Server Error in 1ms
+
+ActiveModel::MassAssignmentSecurity::Error (Can't mass-assign protected attributes: file):
+  app/controllers/projects_controller.rb:44:in `new'
+  app/controllers/projects_controller.rb:44:in `create'
+
+
+  Rendered /Users/sdettling/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/sdettling/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/sdettling/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.4ms)
+
+
+Started POST "/projects" for 127.0.0.1 at 2013-04-03 21:29:45 -0400
+Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yyUvv3NMz8Uv/TV4za4WJr6DKFnY98/4VTjQ5g9aoHo=", "project"=>{"title"=>"test2", "slug"=>"", "type"=>"", "description"=>"", "category_id"=>"", "images_attributes"=>{"0"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x007fcd2b989a68 @original_filename="2XL_klik.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"project[images_attributes][0][file]\"; filename=\"2XL_klik.jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<Tempfile:/var/folders/6c/8f1p29js5fx714kz27_ytwlh0000gn/T/RackMultipart20130403-69448-17y468k>>}, "1"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x007fcd2b989ce8 @original_filename="contact_klik.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"project[images_attributes][1][file]\"; filename=\"contact_klik.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<Tempfile:/var/folders/6c/8f1p29js5fx714kz27_ytwlh0000gn/T/RackMultipart20130403-69448-1lncra3>>}, "2"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x007fcd2b98a328 @original_filename="contact_bevestigen.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"project[images_attributes][2][file]\"; filename=\"contact_bevestigen.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<Tempfile:/var/folders/6c/8f1p29js5fx714kz27_ytwlh0000gn/T/RackMultipart20130403-69448-kzgb29>>}}}, "commit"=>"Create Project"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "projects" ("category_id", "created_at", "description", "slug", "thumb_content_type", "thumb_file_name", "thumb_file_size", "thumb_updated_at", "title", "type", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["category_id", nil], ["created_at", Thu, 04 Apr 2013 01:29:45 UTC +00:00], ["description", ""], ["slug", ""], ["thumb_content_type", nil], ["thumb_file_name", nil], ["thumb_file_size", nil], ["thumb_updated_at", nil], ["title", "test2"], ["type", ""], ["updated_at", Thu, 04 Apr 2013 01:29:45 UTC +00:00]]
+Binary data inserted for `string` type on column `file_content_type`
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "images" ("created_at", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "project_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["created_at", Thu, 04 Apr 2013 01:29:45 UTC +00:00], ["file_content_type", "image/jpeg"], ["file_file_name", "2XL_klik.jpg"], ["file_file_size", 15504], ["file_updated_at", Thu, 04 Apr 2013 01:29:45 UTC +00:00], ["project_id", 2], ["updated_at", Thu, 04 Apr 2013 01:29:45 UTC +00:00]]
+[paperclip] Saving attachments.
+Binary data inserted for `string` type on column `file_content_type`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "images" ("created_at", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "project_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 04 Apr 2013 01:29:45 UTC +00:00], ["file_content_type", "image/png"], ["file_file_name", "contact_klik.png"], ["file_file_size", 4038], ["file_updated_at", Thu, 04 Apr 2013 01:29:45 UTC +00:00], ["project_id", 2], ["updated_at", Thu, 04 Apr 2013 01:29:45 UTC +00:00]]
+[paperclip] Saving attachments.
+Binary data inserted for `string` type on column `file_content_type`
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "images" ("created_at", "file_content_type", "file_file_name", "file_file_size", "file_updated_at", "project_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["created_at", Thu, 04 Apr 2013 01:29:45 UTC +00:00], ["file_content_type", "image/png"], ["file_file_name", "contact_bevestigen.png"], ["file_file_size", 5513], ["file_updated_at", Thu, 04 Apr 2013 01:29:45 UTC +00:00], ["project_id", 2], ["updated_at", Thu, 04 Apr 2013 01:29:45 UTC +00:00]]
+[paperclip] Saving attachments.
+[paperclip] Saving attachments.
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/projects/2
+Completed 302 Found in 86ms (ActiveRecord: 3.0ms)
+
+
+Started GET "/projects/2" for 127.0.0.1 at 2013-04-03 21:29:45 -0400
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered projects/show.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 18ms (Views: 15.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-03 21:29:45 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-04-03 21:29:45 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2013-04-03 21:29:45 -0400
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-03 21:29:45 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2013-04-03 21:29:45 -0400
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-03 21:29:45 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-03 21:29:45 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-04-03 21:29:45 -0400
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-04-03 21:29:45 -0400
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-04-03 21:29:45 -0400
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-04-03 21:29:45 -0400
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-04-03 21:29:45 -0400
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-04-03 21:29:45 -0400
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-04-03 21:29:45 -0400
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-04-03 21:29:45 -0400
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-04-03 21:29:45 -0400
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-04-03 21:29:45 -0400
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-04-03 21:29:46 -0400
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-04-03 21:29:46 -0400
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-04-03 21:29:46 -0400
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-03 21:29:46 -0400
+Served asset /twitter/bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-03 21:29:46 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-04-03 21:29:46 -0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2013-04-03 21:29:46 -0400
+Served asset /projects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-03 21:29:46 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2013-04-03 21:29:56 -0400
+Processing by ProjectsController#index as HTML
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" [0m
+  Rendered projects/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-04-03 21:29:56 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-03 21:29:56 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2013-04-03 21:29:56 -0400
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-03 21:29:56 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-03 21:29:56 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2013-04-03 21:29:56 -0400
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-03 21:29:56 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-04-03 21:29:56 -0400
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-04-03 21:29:56 -0400
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-04-03 21:29:56 -0400
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-04-03 21:29:56 -0400
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-04-03 21:29:56 -0400
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-04-03 21:29:56 -0400
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-04-03 21:29:56 -0400
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-04-03 21:29:56 -0400
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-04-03 21:29:56 -0400
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-04-03 21:29:56 -0400
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-04-03 21:29:56 -0400
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-04-03 21:29:56 -0400
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-04-03 21:29:56 -0400
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-03 21:29:56 -0400
+Served asset /twitter/bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-03 21:29:56 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2013-04-03 21:29:56 -0400
+Served asset /projects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-03 21:29:56 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-04-03 21:29:56 -0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/images/original/missing.png" for 127.0.0.1 at 2013-04-03 21:29:56 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/original/missing.png"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/sdettling/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/sdettling/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/sdettling/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/sdettling/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2013-04-03 21:31:34 -0400
+Processing by ProjectsController#index as HTML
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects" 
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images" WHERE "images"."project_id" = 1[0m
+  [1m[35mImage Load (0.1ms)[0m  SELECT "images".* FROM "images" WHERE "images"."project_id" = 2
+  Rendered projects/index.html.erb within layouts/application (6.5ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (undefined method `url' for #<Image:0x007fcd30907a40>):
+    21:         <td><%= link_to project.id, project_path(project) %></td>
+    22:         <td><%= project.title %>
+    23:           <% project.images.each do |image| %>
+    24:             <%= image_tag image.url %></td>
+    25:           <% end %>
+    26:         <td><%= project.slug %></td>
+    27:         <td><%= project.type %></td>
+  app/views/projects/index.html.erb:24:in `block (2 levels) in _app_views_projects_index_html_erb___3933381709774661609_70259629783440'
+  app/views/projects/index.html.erb:23:in `block in _app_views_projects_index_html_erb___3933381709774661609_70259629783440'
+  app/views/projects/index.html.erb:19:in `each'
+  app/views/projects/index.html.erb:19:in `_app_views_projects_index_html_erb___3933381709774661609_70259629783440'
+  app/controllers/projects_controller.rb:7:in `index'
+
+
+  Rendered /Users/sdettling/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/sdettling/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/sdettling/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.3ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2013-04-03 21:33:48 -0400
+Processing by ProjectsController#index as HTML
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" [0m
+  [1m[35mImage Load (0.2ms)[0m  SELECT "images".* FROM "images" WHERE "images"."project_id" = 1
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images" WHERE "images"."project_id" = 2[0m
+  Rendered projects/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 22ms (Views: 19.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-03 21:33:48 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-03 21:33:48 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2013-04-03 21:33:48 -0400
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-04-03 21:33:48 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2013-04-03 21:33:48 -0400
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-03 21:33:48 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-03 21:33:48 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-04-03 21:33:48 -0400
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-04-03 21:33:48 -0400
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-04-03 21:33:48 -0400
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-04-03 21:33:48 -0400
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-04-03 21:33:48 -0400
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-04-03 21:33:48 -0400
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-04-03 21:33:48 -0400
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-04-03 21:33:48 -0400
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-04-03 21:33:48 -0400
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-04-03 21:33:48 -0400
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-04-03 21:33:48 -0400
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-04-03 21:33:48 -0400
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-04-03 21:33:48 -0400
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-03 21:33:48 -0400
+Served asset /twitter/bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-04-03 21:33:48 -0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-03 21:33:48 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2013-04-03 21:33:48 -0400
+Served asset /projects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-03 21:33:48 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2013-04-03 21:39:30 -0400
+Processing by ProjectsController#index as HTML
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects" 
+  [1m[36mImage Load (0.2ms)[0m  [1mSELECT "images".* FROM "images" WHERE "images"."project_id" = 1[0m
+  [1m[35mImage Load (0.2ms)[0m  SELECT "images".* FROM "images" WHERE "images"."project_id" = 2
+  Rendered projects/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 23ms (Views: 21.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2013-04-03 21:39:30 -0400
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-04-03 21:39:30 -0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-03 21:39:30 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-03 21:39:30 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2013-04-03 21:39:30 -0400
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-03 21:39:30 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-04-03 21:39:30 -0400
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-03 21:39:30 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-04-03 21:39:30 -0400
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-04-03 21:39:30 -0400
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-04-03 21:39:30 -0400
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-04-03 21:39:30 -0400
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-04-03 21:39:30 -0400
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-04-03 21:39:30 -0400
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-04-03 21:39:30 -0400
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-04-03 21:39:30 -0400
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-04-03 21:39:30 -0400
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-04-03 21:39:30 -0400
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-04-03 21:39:30 -0400
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-04-03 21:39:30 -0400
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-03 21:39:30 -0400
+Served asset /twitter/bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-03 21:39:30 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2013-04-03 21:39:30 -0400
+Served asset /projects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-04-03 21:39:30 -0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-03 21:39:30 -0400
+Served asset /application.js - 304 Not Modified (0ms)

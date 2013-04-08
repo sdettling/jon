@@ -1,0 +1,49 @@
+<header class="main">
+      <div class="container">
+        <div id="title">
+          <h1>Design Portfolio<br /><span>of <strong>Jonathan Hoffman</strong></span></h1>
+          <div class="url">www.j-hoff.com</div>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Resume</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="taglines">
+      <div class="container">
+        <h2><span><strong>HI!</strong></span></h2>
+        <h2><span>I'm a <strong>web/interactive designer.</strong></span></h2>
+        <h2><span>I live in <strong>Brooklyn,</strong> and work at <strong>grey NY.</strong></span></h2>
+      </div>
+    </section>
+    <section id="portfolio">
+      <div class="container">
+        <header>
+          <nav>
+            <ul>
+              <li><a href="#">All</a></li>
+              <li><a href="#">eCommerce</a></li>
+              <li><a href="#">Brand Sites</a></li>
+              <li><a href="#">Mobile</a></li>
+            </ul>
+          </nav>
+        </header>
+        <ul id="projects">
+          <% @projects.each do |project| %>
+          <li id="projectid1">
+            <div class="image"></div>
+            <div class="description">
+              <h3><%= project.title %></h3>
+              <h4><%= project.type %></h4>
+              <p><%= project.description %></p>
+            </div>
+          </li>
+          <% end %>
+        </ul>
+      </div>
+    </section>

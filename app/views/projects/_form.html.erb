@@ -24,6 +24,12 @@
     </div>
   </div>
   <div class="control-group">
+    <%= f.label :thumb, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.file_field :thumb %>
+    </div>
+  </div>
+  <div class="control-group">
     <%= f.label :category_id, :class => 'control-label' %>
     <div class="controls">
       <%= f.select :category_id, Category.all.collect{|c| [c.name, c.id]}, :prompt => 'select a category' %>
@@ -31,13 +37,12 @@
   </div>
   <div class="control-group">
 
-    <%= f.fields_for :images do |image_form| %>
+    <!--<%= f.fields_for :images do |image_form| %>
       <%= image_form.label :file, :class => 'control-label' %>
       <div class="controls">
         <%= image_form.file_field :file %>
       </div>
-
-    <% end %>
+    <% end %>-->
 
     
 

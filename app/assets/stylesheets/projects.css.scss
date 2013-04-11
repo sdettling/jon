@@ -70,8 +70,8 @@ textarea {
    ========================================================================== */
 
 body {
-    background-color: #333333;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    
+    font-family: Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 300;
 }
 
@@ -79,6 +79,18 @@ body {
   width: 940px;
   margin: 0px auto;
   position: relative;
+}
+.slidescontainer {
+  background-color: rgba(50,50,50,0.8);
+  position: absolute;
+  width: 100%;
+  z-index: 5;
+  padding-top: 150px;
+  display: none;
+}
+.slides {
+  height: 744px;
+  background-color: #cb5432;
 }
 
 header.main {
@@ -96,13 +108,14 @@ header.main nav ul li {
 }
 header.main nav ul li a {
     display: block;
-    font-size: 20px;
+    font-size: 17px;
     line-height: 30px;
     color: #fff;
     margin-left: 60px;
     text-transform: uppercase;
     text-decoration: none;
-    font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium"
+    font-family: "Lato", "HelveticaNeue", "Helvetica Neue", sans-serif;
+    font-weight: 700;
 }
 
 #title {
@@ -117,25 +130,26 @@ header.main nav ul li a {
 }
 #title h1 {
     margin: 0px;
-    font-size: 32px;
+    font-size: 29px;
     line-height: 22px;
     color: #fff;
     text-transform: uppercase;
     font-weight: normal;
     text-align: center;
-    font-family: "HelveticaNeue-UltraLight", "Helvetica Neue Ultra Light"
+    font-family: "Lato", "HelveticaNeue", "Helvetica Neue", sans-serif;
+    font-weight:100;
 }
 #title h1 span {
-    font-size: 23px;
+    font-size: 22px;
 }
 #title h1 span strong {
-    font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium";
-    font-weight: normal;
+    font-weight: 700;
 }
 #title .url {
     text-align: right;
     color: #333;
-    font-family: "HelveticaNeue-Bold", "Helvetica Neue Bold";
+    font-family: "Lato", "HelveticaNeue", "Helvetica Neue", sans-serif;
+    font-weight:900;
     text-transform: uppercase;
 }
 
@@ -158,12 +172,13 @@ header.main nav ul li a {
     display: inline-block;
     padding: 0px 12px;
     text-transform: uppercase;
-    font-weight: normal;
-    font-family: "HelveticaNeue-UltraLight", "Helvetica Neue Ultra Light"
+    font-family: "Lato", "HelveticaNeue", "Helvetica Neue", sans-serif;
+    font-weight: 100;
 }
 #taglines h2 span strong {
     font-weight: normal;
-    font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium"
+    font-family: "Lato", "HelveticaNeue", "Helvetica Neue", sans-serif;
+    font-weight: 700;
 }
 #portfolio header nav {
     height: 67px;
@@ -177,7 +192,7 @@ header.main nav ul li a {
     float: left;
 }
 #portfolio header nav ul li a {
-    font-size: 20px;
+    font-size: 17px;
     color: #fff;
     line-height: 26px;
     padding: 0px 20px;
@@ -201,7 +216,61 @@ header.main nav ul li a {
 #projects li.right {
     margin-right: 0px;
 }
-
+#projects li .image {
+  position: absolute;
+  z-index: 1;
+}
+#projects li a {
+  display: block;
+  width: 308px;
+  height: 308px;
+}
+#projects li .description {
+  border: 5px solid #689aa3;
+  position: absolute;
+  width: 298px;
+  height: 298px;
+  z-index: 2;
+  visibility: hidden;
+}
+#projects li a:hover .description {
+  visibility: visible;
+}
+#projects li a:hover .image {
+  opacity: 0.3;
+}
+#projects li .description .descriptioncontent {
+  position: absolute;
+  background-color: rgba(50,50,50,0.74);
+  width: 298px;
+  bottom: 0px;
+}
+#projects li .description .titles {
+  border-bottom: 1px solid #689aa3;
+  padding: 7px 12px;
+}
+#projects li .description h3, #projects li .description h4 {
+  font-family: "Lato", "HelveticaNeue", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  margin: 0;
+}
+#projects li .description h3 {
+  text-transform: uppercase;
+  color: #689aa3;
+}
+#projects li .description h4 {
+  color: #fff;
+  position: absolute;
+  line-height: 54px;
+  top: 0px;
+  right: 12px;
+}
+#projects li .description p {
+  margin: 20px 12px;
+  font-size: 13px;
+  line-height: 22px;
+  color: #fff;
+}
 
 /* ==========================================================================
    Media Queries

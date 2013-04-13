@@ -1,11 +1,14 @@
-<div class="control-group">
-  <% unless f.object.new_record? %>
+
+  <div class="control-group">
   <%= f.label :file, :class => 'control-label' %>
-    <%= image_tag f.object.file.url %>
+    <% unless f.object.new_record? %>
+      <%= image_tag f.object.file.url %>
+    <% end %>
     <div class="controls">
+      <% unless !f.object.new_record? %>
       <%= f.file_field :file %>
+      <% end %>
       <%= f.hidden_field :_destroy %>
       <%= link_to "remove", "#", class: "remove_fields" %>
     </div>
-  <% end %>
-</div>
+  </div>

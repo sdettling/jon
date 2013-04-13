@@ -9,3 +9,21 @@ jQuery ->
     regexp = new RegExp($(this).data('id'), 'g')
     $(this).before($(this).data('fields').replace(regexp, time))
     event.preventDefault()
+
+  $('.project-thumb').on 'click', (event) ->
+    projectid = $(this).data('project-id')
+
+    $.ajax '/projects/' + projectid + '/images',
+    type: 'GET'
+    dataType: 'json'
+    error: (jqXHR, textStatus, errorThrown) ->
+        console.log 'error'
+    success: (data, textStatus, jqXHR) ->
+        console.log data
+
+    $('#slidescontainer').show()
+    event.preventDefault()
+
+  $('#slideclose').on 'click', (event) ->
+    $('#slidescontainer').hide()
+    event.preventDefault()

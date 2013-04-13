@@ -7,9 +7,9 @@
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
-<body style="background-color: #fff;">
+<body>
 
-<div class="navbar">
+<!--<div class="navbar">
   <div class="navbar-inner">
     <div class="container">
       <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -45,7 +45,9 @@
   <div class="row">
     <div class="span12"><%= yield %></div>
   </div>
-</div>
+</div>-->
+
+<%= yield %>
 
 </body>
 </html>

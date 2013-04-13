@@ -5,6 +5,7 @@ Jon::Application.routes.draw do
 
 
   resources :projects
+  match 'projects/:id/images' => 'projects#images'
 
   root :to => 'projects#main'
 

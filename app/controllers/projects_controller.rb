@@ -3,6 +3,13 @@ class ProjectsController < ApplicationController
   # GET /projects.json
   def main
     @projects = Project.all
+    render :action => "main", :layout => "main"
+  end
+
+  def images
+    @project = Project.find(params[:id])
+
+    render json: @project.images
   end
 
   def index

@@ -17,9 +17,9 @@ jQuery ->
     type: 'GET'
     dataType: 'json'
     error: (jqXHR, textStatus, errorThrown) ->
-        console.log 'error'
+      console.log 'error'
     success: (data, textStatus, jqXHR) ->
-        console.log data
+      console.log data
 
     $('#slidescontainer').show()
     event.preventDefault()
@@ -27,3 +27,17 @@ jQuery ->
   $('#slideclose').on 'click', (event) ->
     $('#slidescontainer').hide()
     event.preventDefault()
+
+  $('#categories li a').on 'click', (event) ->
+    catid = $(this).data('cat-id')
+    if catid == 'all'
+      $('#projects li').show()
+    else
+      $('#projects li').each (index) ->
+        console.log this
+        if $(this).data('cat-id') != catid
+          $(this).hide()
+        else
+          $(this).show()
+    event.preventDefault()
+

@@ -3,6 +3,7 @@ class ProjectsController < ApplicationController
   # GET /projects.json
   def main
     @projects = Project.all
+    @categories = Category.all
     render :action => "main", :layout => "main"
   end
 

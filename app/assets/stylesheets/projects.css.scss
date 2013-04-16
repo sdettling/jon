@@ -85,7 +85,7 @@ body {
   background-color: rgba(50,50,50,0.8);
   position: absolute;
   width: 100%;
-  z-index: 5;
+  z-index: 10;
   padding-top: 150px;
   display: none;
 }
@@ -96,6 +96,11 @@ body {
 
 header.main {
     height: 83px;
+    box-shadow: 0px 4px 0px rgba(0,0,0,.15);
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    z-index: 6;
 }
 header.main nav {
     padding: 40px 0px 0px 340px;
@@ -157,7 +162,6 @@ header.main nav ul li a {
 #taglines {
     background: url(/assets/background.jpg) no-repeat 50% 10%;
     height: 566px;
-    box-shadow: inset 0px 4px 0px rgba(0,0,0,.15);
 }
 #taglines .container {
     padding: 140px 0px 0px 50px;

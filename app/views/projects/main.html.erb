@@ -1,5 +1,4 @@
-<header class="main">
-      <div id="slidescontainer">
+<div id="slidescontainer">
         <a href="#" id="slideclose" >close</a>
         <div class="container">
           <div class="slides" id="slides">
@@ -15,6 +14,7 @@
           });
         });*/
       </script>
+<header class="main">
       <div class="container">
         <div id="title">
           <h1>Design Portfolio<br /><span>of <strong>Jonathan Hoffman</strong></span></h1>
@@ -41,11 +41,11 @@
       <div class="container">
         <header>
           <nav>
-            <ul>
-              <li><a href="#">All</a></li>
-              <li><a href="#">eCommerce</a></li>
-              <li><a href="#">Brand Sites</a></li>
-              <li><a href="#">Mobile</a></li>
+            <ul id="categories">
+              <li><a href="#" data-cat-id="all">All</a></li>
+              <% @categories.each do |cat| %>
+                <li><a href="#" data-cat-id="<%= cat.id %>"><%= cat.name %></a></li>
+              <% end %>
             </ul>
           </nav>
         </header>

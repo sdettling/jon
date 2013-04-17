@@ -19,7 +19,12 @@ jQuery ->
     error: (jqXHR, textStatus, errorThrown) ->
       console.log 'error'
     success: (data, textStatus, jqXHR) ->
-      console.log data
+      $.each data, (index, value) ->
+        imgtag = $('<img>')
+        imgtag.attr('src', value)
+        $('#slides').append(imgtag)
+
+      $('#slides').slidesjs({width: 940, height: 528})
 
     $('#slidescontainer').show()
     event.preventDefault()

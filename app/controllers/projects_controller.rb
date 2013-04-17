@@ -9,8 +9,12 @@ class ProjectsController < ApplicationController
 
   def images
     @project = Project.find(params[:id])
+    urls = []
+    @project.images.each do |img|
+      urls.push(img.file.url)
+    end
 
-    render json: @project.images
+    render json: urls
   end
 
   def index

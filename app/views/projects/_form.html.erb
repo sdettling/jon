@@ -25,7 +25,7 @@
   </div>
   <div class="control-group">
     <%= f.label :thumb, :class => 'control-label' %>
-    <%= image_tag @project.thumb.url %>
+    <%= image_tag @project.thumb.url(:thumb) %>
     <div class="controls">
       <%= f.file_field :thumb %>
     </div>

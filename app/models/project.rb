@@ -5,5 +5,9 @@ class Project < ActiveRecord::Base
   has_many :images
   accepts_nested_attributes_for :images, :allow_destroy => true
   
-  has_attached_file :thumb, :default_url => "/images/:style/missing.png"
+  has_attached_file :thumb, :styles => {
+      :thumb=> "100x100#",
+      :square=> "308x308#"
+      },
+      :default_url => "/images/:style/missing.png"
 end

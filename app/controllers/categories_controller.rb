@@ -1,4 +1,5 @@
 class CategoriesController < ApplicationController
+  before_filter :verify_is_admin, :only => [:index, :show, :new, :edit, :create, :destroy]
   # GET /categories
   # GET /categories.json
   def index

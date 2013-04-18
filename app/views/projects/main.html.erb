@@ -1,9 +1,6 @@
 <div id="slidescontainer">
-        <a href="#" id="slideclose" >close</a>
-        <div class="container">
-          <div class="slides" id="slides">
-
-          </div>
+        <div id="slideshowindex" class="container">
+          <a href="#" id="slideclose" >close</a>
         </div>
       </div>
 <header class="main">
@@ -46,7 +43,7 @@
           <li id="projectid<%= project.id %>" data-cat-id="<%= project.category_id %>" >
             <a href="#" class="project-thumb" data-project-id="<%= project.id %>">
               <div class="image">
-                <%= image_tag project.thumb.url %>
+                <%= image_tag project.thumb.url(:square) %>
               </div>
               <div class="description">
                 <div class="descriptioncontent">

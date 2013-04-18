@@ -12,6 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require jquery.slides.min
+//= require jquery.slides
 //= require twitter/bootstrap
 //= require_tree .

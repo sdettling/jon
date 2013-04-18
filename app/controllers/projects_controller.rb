@@ -1,4 +1,7 @@
 class ProjectsController < ApplicationController
+
+  before_filter :verify_is_admin, :only => [:index, :show, :new, :edit, :create, :destroy]
+  
   # GET /projects
   # GET /projects.json
   def main
@@ -11,7 +14,7 @@ class ProjectsController < ApplicationController
     @project = Project.find(params[:id])
     urls = []
     @project.images.each do |img|
-      urls.push(img.file.url)
+      urls.push(img.file.url(:slide))
     end
 
     render json: urls

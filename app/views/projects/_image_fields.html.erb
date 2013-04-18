@@ -2,7 +2,7 @@
   <div class="control-group">
   <%= f.label :file, :class => 'control-label' %>
     <% unless f.object.new_record? %>
-      <%= image_tag f.object.file.url %>
+      <%= image_tag f.object.file.url(:thumb) %>
     <% end %>
     <div class="controls">
       <% unless !f.object.new_record? %>

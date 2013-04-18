@@ -12,24 +12,29 @@ jQuery ->
 
   $('.project-thumb').on 'click', (event) ->
     projectid = $(this).data('project-id')
+    if $('#slides'+projectid).length > 0
+      $('#slides'+projectid).show()
+    else
+      slides = $('<div id="slides'+projectid+'" class="slider">')
+      $.ajax '/projects/' + projectid + '/images',
+      type: 'GET'
+      dataType: 'json'
+      error: (jqXHR, textStatus, errorThrown) ->
+        console.log 'error'
+      success: (data, textStatus, jqXHR) ->
+        $.each data, (index, value) ->
+          imgtag = $('<img>')
+          imgtag.attr('src', value)
+          slides.append(imgtag)
+          $('#slideshowindex').append(slides)
 
-    $.ajax '/projects/' + projectid + '/images',
-    type: 'GET'
-    dataType: 'json'
-    error: (jqXHR, textStatus, errorThrown) ->
-      console.log 'error'
-    success: (data, textStatus, jqXHR) ->
-      $.each data, (index, value) ->
-        imgtag = $('<img>')
-        imgtag.attr('src', value)
-        $('#slides').append(imgtag)
-
-      $('#slides').slidesjs({width: 940, height: 528})
+        slides.slidesjs({width: 932, height: 697, navigation: { effect: "fade" }, pagination: { effect: "fade" }, effect: { fade: {speed: 300, crossfade: true }}})
 
     $('#slidescontainer').show()
     event.preventDefault()
 
   $('#slideclose').on 'click', (event) ->
+    $('.slider').hide()
     $('#slidescontainer').hide()
     event.preventDefault()
 
@@ -45,4 +50,10 @@ jQuery ->
         else
           $(this).show()
     event.preventDefault()
+
+  $(window).scroll ->
+    yPos = ($(window).scrollTop() *.5) - 60
+    console.log yPos
+    coords = '50% '+ yPos + 'px'
+    $('#taglines').css({ backgroundPosition: coords })
 

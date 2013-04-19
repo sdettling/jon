@@ -10,7 +10,7 @@ group :development, :test do
 end
 
 group :production do
-  gem 'pg'
+  gem 'mysql2'
 end
 
 # Gems used only for assets and not required
@@ -25,7 +25,7 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem "paperclip", "~> 3.0"
+gem "paperclip", "~> 2.7"
 gem 'therubyracer'
 gem 'less-rails'
 gem 'jquery-rails'

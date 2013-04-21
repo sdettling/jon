@@ -11,10 +11,10 @@
         </div>
         <nav>
           <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Resume</a></li>
+            <li><a id="homeLink" href="#home">Home</a></li>
+            <li><a id="portfolioLink" href="#portfolio">Portfolio</a></li>
+            <li><a href="mailto:jonathan@hofnar.net">Contact</a></li>
+            <li><a href="/resume.pdf" target="_blank">Resume</a></li>
           </ul>
         </nav>
       </div>
@@ -39,8 +39,8 @@
           </nav>
         </header>
         <ul id="projects">
-          <% @projects.each do |project| %>
-          <li id="projectid<%= project.id %>" data-cat-id="<%= project.category_id %>" >
+          <% @projects.each_with_index do |project, index| %>
+          <li id="projectid<%= project.id %>" data-cat-id="<%= project.category_id %>" <% if (index+1)%3 == 0 %> class="right"<% end %>>
             <a href="#" class="project-thumb" data-project-id="<%= project.id %>">
               <div class="image">
                 <%= image_tag project.thumb.url(:square) %>

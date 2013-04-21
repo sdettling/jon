@@ -1,7 +1,7 @@
 class ProjectsController < ApplicationController
 
-  before_filter :verify_is_admin, :only => [:index, :show, :new, :edit, :create, :destroy]
-  
+  before_filter :authenticate_user!, :only => [:index, :show, :new, :edit, :create, :destroy]
+
   # GET /projects
   # GET /projects.json
   def main

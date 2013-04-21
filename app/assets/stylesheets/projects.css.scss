@@ -187,7 +187,7 @@ header.main nav ul li a {
 }
 #title h1 {
     margin: 0px;
-    font-size: 28px;
+    font-size: 29px;
     line-height: 22px;
     color: #fff;
     text-transform: uppercase;
@@ -211,7 +211,7 @@ header.main nav ul li a {
 }
 
 #taglines {
-    background: url(/assets/background.jpg) no-repeat 50% 10%;
+    background: #888 url(/assets/background.jpg) no-repeat 50% 10%;
     height: 566px;
     padding-top: 83px;
 }
@@ -236,6 +236,9 @@ header.main nav ul li a {
     font-weight: normal;
     font-family: "Lato", "HelveticaNeue", "Helvetica Neue", sans-serif;
     font-weight: 700;
+}
+#portfolio {
+  padding-bottom: 50px;
 }
 #portfolio header nav {
     height: 67px;
@@ -288,10 +291,10 @@ header.main nav ul li a {
   width: 298px;
   height: 298px;
   z-index: 2;
-  visibility: hidden;
+  display: none;
 }
 #projects li a:hover .description {
-  visibility: visible;
+
 }
 #projects li a:hover .image {
   opacity: 0.3;

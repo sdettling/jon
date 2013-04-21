@@ -33,6 +33,14 @@ jQuery ->
     $('#slidescontainer').show()
     event.preventDefault()
 
+  $('#portfolioLink').on 'click', (event) ->
+    $('html, body').animate({ scrollTop: $("#portfolio").offset().top }, 1000)
+    event.preventDefault()
+
+  $('#homeLink').on 'click', (event) ->
+    $('html, body').animate({ scrollTop: "0px" }, 1000)
+    event.preventDefault()
+
   $('#slideclose').on 'click', (event) ->
     $('.slider').hide()
     $('#slidescontainer').hide()
@@ -41,19 +49,31 @@ jQuery ->
   $('#categories li a').on 'click', (event) ->
     catid = $(this).data('cat-id')
     if catid == 'all'
-      $('#projects li').show()
+      $('#projects li').each (index) ->
+        if (index+1)%3 == 0
+          $(this).addClass('right')
+        else
+          $(this).removeClass('right')
+        $(this).show()
     else
+      counter = 0;
       $('#projects li').each (index) ->
         console.log this
         if $(this).data('cat-id') != catid
           $(this).hide()
         else
+          counter += 1;
+          if counter%3 == 0
+            $(this).addClass('right')
+          else
+            $(this).removeClass('right')
           $(this).show()
     event.preventDefault()
-
+  $('#projects li').hover \
+    (-> $(this).find('.description').fadeIn(300)), \
+    (-> $(this).find('.description').fadeOut(300))
   $(window).scroll ->
     yPos = ($(window).scrollTop() *.5) - 60
-    console.log yPos
     coords = '50% '+ yPos + 'px'
     $('#taglines').css({ backgroundPosition: coords })
 

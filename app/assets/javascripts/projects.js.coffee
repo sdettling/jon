@@ -30,11 +30,18 @@ jQuery ->
 
         slides.slidesjs({width: 932, height: 697, navigation: { effect: "fade" }, pagination: { effect: "fade" }, effect: { fade: {speed: 300, crossfade: true }}})
 
+    $('#slideshowindex').css('top', ($(window).scrollTop() - 50) + "px")
+    scrollHeight = $(window).scrollTop() + 900
+    documentHeight = $(document).height()
+    if scrollHeight > documentHeight
+      $('#slidescontainer').css('height', scrollHeight + "px")
+    else
+      $('#slidescontainer').css('height', documentHeight + "px")
     $('#slidescontainer').show()
     event.preventDefault()
 
   $('#portfolioLink').on 'click', (event) ->
-    $('html, body').animate({ scrollTop: $("#portfolio").offset().top }, 1000)
+    $('html, body').animate({ scrollTop: $("#portfolio").offset().top - 83 }, 1000)
     event.preventDefault()
 
   $('#homeLink').on 'click', (event) ->
@@ -76,4 +83,7 @@ jQuery ->
     yPos = ($(window).scrollTop() *.5) - 60
     coords = '50% '+ yPos + 'px'
     $('#taglines').css({ backgroundPosition: coords })
+  $(window).resize ->
+    $("#portfolio").css('min-height', $(window).height() + "px")
+  $("#portfolio").css('min-height', $(window).height() + "px")
 
